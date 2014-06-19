@@ -1,2 +1,0 @@
-# Lunulata Blog Repository
-
