@@ -11,3 +11,10 @@ tags:
 ---
 
 a test post from lunulata!
+
+
+````python
+import smd
+smd.now()
+
+````

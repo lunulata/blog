@@ -15,6 +15,11 @@
       <author>Enthusiastic Hugo User</author>
       <guid>https://lunulata.github.io/post/test</guid>
       <description>&lt;p&gt;a test post from lunulata!&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;python&#34;&gt;import smd
+smd.now()
+
+&lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
     
