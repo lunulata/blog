@@ -1,5 +1,8 @@
 ---
-baseurl: "http://blog.hugoexample.com/"
-title: "Hugo Example Blog"
+baseurl: "https://lunulata.github.io/blog"
+title: "Lunulata - An Insomniac Web Dev's Blog"
 canonifyurls: true
+contentdir: "content"
+layoutdir: "layouts"
+publishdir: "public"
 ---
