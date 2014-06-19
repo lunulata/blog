@@ -8,12 +8,12 @@
     <meta name="description" content="A test post from Lunulata!">
     <meta name="author" content="A Hugo User"> 
 
-    <title>Test Post! - https://lunulata.github.io/blog</title>
-    <link rel="canonical" href="https://lunulata.github.io/post/test">
+    <title>Test Post! - http://localhost:1313</title>
+    <link rel="canonical" href="http://localhost:1313/post/test">
     
-    <link href="https://lunulata.github.io/blog/css/bootstrap.css" rel="stylesheet">
-    <link href="https://lunulata.github.io/blog/css/font-awesome.css" rel="stylesheet">
-    <link href="https://lunulata.github.io/blog/css/custom.css" rel="stylesheet">
+    <link href="http://localhost:1313/css/bootstrap.css" rel="stylesheet">
+    <link href="http://localhost:1313/css/font-awesome.css" rel="stylesheet">
+    <link href="http://localhost:1313/css/custom.css" rel="stylesheet">
     
 </head>
 <body>
@@ -26,11 +26,11 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="https://lunulata.github.io/blog">Lunulata - An Insomniac Web Dev&#39;s Blog</a>
+                <a class="navbar-brand" href="http://localhost:1313">Lunulata - An Insomniac Web Dev&#39;s Blog</a>
             </div>
             <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav">
-                    <li><a href="https://lunulata.github.io/blog/post/">Post Index</a></li>
+                    <li><a href="http://localhost:1313/post/">Post Index</a></li>
                     
                 </ul>
             </div>
@@ -61,14 +61,14 @@ smd.now()
                 <strong>Categories</strong>
                 <ul class="list-unstyled">
                 
-                    <li><a href="https://lunulata.github.io/blog/categories/blog">blog</a></li>
+                    <li><a href="http://localhost:1313/categories/blog">blog</a></li>
                 
-                    <li><a href="https://lunulata.github.io/blog/categories/hello">hello</a></li>
+                    <li><a href="http://localhost:1313/categories/hello">hello</a></li>
                 
                 </ul>
                 <hr>
                 <strong>Tags</strong><br>
-                <a class="label label-default" href="https://lunulata.github.io/blog/tags/hugo">hugo</a> <a class="label label-default" href="https://lunulata.github.io/blog/tags/blog">blog</a> 
+                <a class="label label-default" href="http://localhost:1313/tags/hugo">hugo</a> <a class="label label-default" href="http://localhost:1313/tags/blog">blog</a> 
             </div>
                 <div class="panel panel-default">
         <div class="panel-heading" style="padding: 2px 15px;">
@@ -93,8 +93,8 @@ smd.now()
         </footer>
 </div>
 
-    <script src="https://lunulata.github.io/blog/js/jquery.js"></script>
-    <script src="https://lunulata.github.io/blog/js/bootstrap.js"></script>
+    <script src="http://localhost:1313/js/jquery.js"></script>
+    <script src="http://localhost:1313/js/bootstrap.js"></script>
 
 
     <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>
@@ -104,5 +104,8 @@ smd.now()
 		    $(this).find("pre").addClass("prettyprint"); 
 		});
 	</script>
-</body>
+<script>document.write('<script src="http://'
+        + (location.host || 'localhost').split(':')[0]
+		+ ':1313/livereload.js?mindelay=10"></'
+        + 'script>')</script></body>
 </html>
